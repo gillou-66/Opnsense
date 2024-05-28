@@ -1,0 +1,1 @@
+alert tcp any any -> $HOME_NET any (msg:"NMAP TCP Scan Detecte"; flow:to_server,stateless; flags:S; sid:3400001; rev:1; )
